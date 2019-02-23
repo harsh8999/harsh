@@ -12,7 +12,7 @@ val TABLE_NAME = "user_info"
 val COL_ID = "col_id"
 val COL_NAME = "name"
 val COL_AGE = "age"
-
+val i="asd"
 class DatabaseHandler(var context : Context): SQLiteOpenHelper(context,DATABASE_NAME,null, 1)
 {
 
